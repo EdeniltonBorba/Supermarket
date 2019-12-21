@@ -7,7 +7,7 @@
     "lint": "eslint --ext .js --quiet .",
     "lint-fix": "eslint --ext .js --fix .",
     "pretest": "npm run lint",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "start": "node server.js"
   },
   "author": "",
