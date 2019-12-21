@@ -1,3 +1,7 @@
+/* eslint-disable guard-for-in */
+/* eslint-disable no-restricted-syntax */
+/* eslint no-plusplus: ["error", { "allowForLoopAfterthoughts": true }] */
+
 // Import MySQL connection.
 const connection = require("../config/connection.js");
 

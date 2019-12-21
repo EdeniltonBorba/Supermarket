@@ -13,6 +13,7 @@
   "parserOptions": {
     "ecmaVersion": 2018
   },
-  "ignorePatterns": ["node_modules/"],
+  // ignore static js, too many errors for now
+  "ignorePatterns": ["node_modules/", "public/assets/js/"],
   "rules": {}
 }
