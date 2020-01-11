@@ -3,23 +3,23 @@ const orm = require("../config/orm.js");
 
 const supermarket = {
   all(cb) {
-    orm.all("products", function(res) {
+    orm.all("supermarket", function (res) {
       cb(res);
     });
   },
   // The variables cols and vals are arrays.
   create(cols, vals, cb) {
-    orm.create("products", cols, vals, function(res) {
+    orm.create("supermarket", cols, vals, function (res) {
       cb(res);
     });
   },
   update(objColVals, condition, cb) {
-    orm.update("products", objColVals, condition, function(res) {
+    orm.update("supermarket", objColVals, condition, function (res) {
       cb(res);
     });
   },
   delete(condition, cb) {
-    orm.delete("products", condition, function(res) {
+    orm.delete("supermarket", condition, function (res) {
       cb(res);
     });
   }
