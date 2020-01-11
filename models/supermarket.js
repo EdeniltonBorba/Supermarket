@@ -4,6 +4,7 @@ const orm = require("../config/orm.js");
 const supermarket = {
   all(cb) {
     orm.all("supermarket", function (res) {
+      
       cb(res);
     });
   },

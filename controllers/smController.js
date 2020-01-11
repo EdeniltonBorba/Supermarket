@@ -22,10 +22,10 @@ router.get("/products", function (req, res) {
 });
 
 router.get("/supermarkets", function (req, res) {
-  supermarket.all(function () {
-    console.log(hbsObject);
+  supermarket.all(function (data) {
+    console.log(data);
     var hbsObject = {
-      products: "products"
+      supermarkets: data
     };
 
     res.render("allsupermarkets", hbsObject);
