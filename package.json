@@ -8,7 +8,7 @@
     "lint-fix": "eslint --ext .js --fix .",
     "pretest": "npm run lint",
     "test": "jest --passWithNoTests",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,13 +16,7 @@
     "dotenv": "^8.2.0",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
-    "mysql": "^2.16.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run pretest",
-      "pre-push": "npm run test"
-    }
+    "mysql": "^2.17.1"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
@@ -34,7 +28,7 @@
     "handlebars-helper-css": "^0.1.0",
     "husky": "^3.1.0",
     "jest": "^24.9.0",
-    "prettier": "^1.19.1"
+    "nodemon": "^2.0.2"
   },
   "repository": {
     "type": "git",
