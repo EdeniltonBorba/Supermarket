@@ -1,7 +1,7 @@
 // Import the ORM to create functions that will interact with the database.
 const orm = require("../config/orm.js");
 
-const supermarket = {
+const product = {
   all(cb) {
     orm.all("products", function(res) {
       cb(res);
@@ -26,4 +26,4 @@ const supermarket = {
 };
 
 // Export the database functions for the controller (catsController.js).
-module.exports = supermarket;
+module.exports = product;
