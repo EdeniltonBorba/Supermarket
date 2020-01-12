@@ -11,10 +11,9 @@ router.get("/", function (req, res) {
 });
 
 router.get("/products", function (req, res) {
-  product.all(function () {
-    console.log(hbsObject);
+  product.all(function (data) {
     var hbsObject = {
-      products
+      products: data
     };
 
     res.render("allproducts", hbsObject);
