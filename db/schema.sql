@@ -74,24 +74,31 @@ CREATE TABLE category (
 INSERT INTO products
 VALUES
     ( NULL, 1234 , 'Tomato' , 'VEGEN_VEGETABLE' , 4);
+
 INSERT INTO customers
 VALUES
     ( NULL, 'Bobbi' , 'tibet' , 'lhasha' , 1909 , 'bhrikuti_marga' , 'iwillcallyousoon.com' , 9840064297 );
+
 INSERT INTO orders
 VALUES
     ( NULL , '2008-11-11' ,2134 );
+
 INSERT INTO order_details
 VALUES
     (56 , 1234, 67 );
+
 INSERT INTO supermarket
 VALUES
     ( NULL , 47 , 'EDEKA', 'http://lorempixel.com/400/200/food/');
+
     INSERT INTO supermarket
 VALUES
     ( NULL , 69 , 'REWE', null );
+
 INSERT INTO city
 VALUES
     ( NULL , 'Berlin',  'germany' );
+    
 INSERT INTO category
 VALUES
     ( NULL );
