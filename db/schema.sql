@@ -18,6 +18,7 @@ product_name VARCHAR(100) NOT NULL,
 product_category VARCHAR(50) NOT NULL,
 product_type TEXT NOT NULL,
 price DECIMAL(10, 2) NOT NULL, 
+image varchar(1000),
 PRIMARY KEY(product_id)
 );
 
@@ -70,43 +71,4 @@ CREATE TABLE category (
 category_id INT(11) NOT NULL AUTO_INCREMENT,
 PRIMARY KEY (category_id)
 );
-
-
-INSERT INTO products
-VALUES
-    ( NULL,'Coca-Cola Original','Drinks' ,'Coca-Cola Original Taste 1.5L' , 2);
-    ( NULL,'VOSS Still','Drinks' ,'VOSS Still Artesian Water Glass Bottle 800ml' , 3);
-    ( NULL,'Becks Bier','Drinks' ,'Becks Bier 660ml' , 1);
-    ( NULL,'Orange Juice','Drinks' ,'Innocent Orange Juice Smooth 1.35L' , 2);
-    
-
-INSERT INTO customers
-VALUES
-    ( );
-
-INSERT INTO orders
-VALUES
-    ( );
-
-INSERT INTO order_details
-VALUES
-    ();
-
-INSERT INTO supermarket
-VALUES
-    ();
-
-    INSERT INTO supermarket
-VALUES
-    ();
-
-INSERT INTO city
-VALUES
-    ();
-
-INSERT INTO category
-VALUES
-    ( );
-
-
 
