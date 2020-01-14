@@ -1,8 +1,35 @@
-body {
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  clear: both;
+.navbar {
+  background: rgb(145, 228, 166);
+  margin-bottom: 30px;
+}
+
+.supermarket1 {
+  width: 100px;
+  height: 100px;
+}
+#allsupermarket {
+  width: 100px;
+  height: auto;
+}
+
+#allsupermarket {
+  margin: 30px 30px 30px 50px;
+
+}
+
+.products{
+  width: 100px;
+  height: 50px;
+
+}
+
+.card-img-top {
+  width: 250px;
+  height: 250px;
+}
+
+.card-footer {
+  background: seagreen;
 }
 
 li {
