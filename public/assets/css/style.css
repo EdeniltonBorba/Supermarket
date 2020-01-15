@@ -19,7 +19,9 @@ body {
 .supermarket1 {
   width: 100px;
   height: 100px;
+  margin-left: 50px;
 }
+
 #allsupermarket {
   width: 100px;
   height: auto;
@@ -67,3 +69,4 @@ li {
 .form-group {
   margin-bottom: 5px;
 }
+
