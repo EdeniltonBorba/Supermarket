@@ -1,5 +1,8 @@
+
+body {
+  background-color: #ffdf4f;
+}
 .navbar {
-  background: rgb(145, 228, 166);
   margin-bottom: 30px;
 }
 
@@ -29,7 +32,9 @@
 }
 
 .card-footer {
-  background: seagreen;
+  background: black;
+  padding: 20px;
+  margin-top: 30px;
 }
 
 li {
