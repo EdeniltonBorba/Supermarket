@@ -1,9 +1,19 @@
 
 body {
-  background-color: #ffdf4f;
+  background-color: #b6b0b0;
 }
 .navbar {
   margin-bottom: 30px;
+  padding: 0 100px 0 50px;
+  background-color: rgb(220, 40, 40);
+}
+
+#content {
+  padding: 0 100px 0 50px;
+}
+
+.city {
+  padding: 0 100px 0 50px;
 }
 
 .supermarket1 {
@@ -21,20 +31,21 @@ body {
 }
 
 .products{
-  width: 100px;
+  width: 110px;
   height: 50px;
 
 }
 
 .card-img-top {
-  width: 250px;
   height: 250px;
 }
 
 .card-footer {
-  background: black;
-  padding: 20px;
+  background: rgb(100, 97, 97);
+  padding:50px;
   margin-top: 30px;
+ 
+
 }
 
 li {
