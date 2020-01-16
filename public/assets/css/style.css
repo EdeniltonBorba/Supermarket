@@ -20,8 +20,18 @@ body {
   width: 100px;
   height: 100px;
   margin-left: 50px;
+  background-color: #b6b0b0;
+
 }
 
+.marketProduct{
+background-color: #b6b0b0;
+}
+
+.card {
+  height: 400px;
+  margin-bottom: 20px;
+}
 #allsupermarket {
   width: 100px;
   height: auto;
