@@ -1,22 +1,19 @@
-<!-- Head-->
-<nav class="navbar navbar-light bg-light">
-  <a class="navbar-brand" href="#">
-    <img src="/public/assets/image/ship 1.jpg" width="100" height="100" class="d-inline-block align-top" alt="ship">
-    Navio
+
+<div class="marketProduct">
+  <a class="navbar-item" href="/supermarkets">
+    <img class="supermarket1" src="/assets/image/Logo_Edeka.svg.png" href="/supermarket" alt="Card image cap">
   </a>
-  <button type="button" class="btn btn-primary">HOME</button>
-  <button type="button" class="btn btn-secondary">REGISTER</button>
-  <button type="button" class="btn btn-success">LOGIN</button>
-</nav>
+</div>
 
 <br>
 
-<div class="row">
+
+<div class="row" id="content">
 
   {{#each products}}
   <div class="col">
     <div class="card" style="width: 18rem;">
-      <img src={{image}} class="card-img-top" alt="...">
+      <img src={{image}} class="card-img-top img-fluid img-thumbnail" id="products">
       <div class="card-body">
         <h5 class="card-title">{{product_name}}</h5>
         <p class="card-text">{{product_type }}</p>
@@ -27,3 +24,4 @@
 
   {{/each}}
 
+</div>

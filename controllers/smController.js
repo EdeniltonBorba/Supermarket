@@ -1,6 +1,6 @@
 const express = require("express");
-const supermarket = require("../models/supermarket.js")
-const product = require("../models/product.js")
+const supermarket = require("../models/supermarket.js");
+const product = require("../models/product.js");
 const router = express.Router();
 
 // Create all our routes and set up logic within those routes where required.
